@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="RegressionTest">
+        <classes>
+            <class name="Bai17POM.Testcase.TestcaseSignin">
+                <methods>
+                    <include name="Login1"/>
+
+                    <include name="LoginOA"/>
+
+                </methods>
+            </class>
+
+        </classes>
+  </test>
+<!--    <test name="SanityTest">-->
+<!--        <packages>-->
+<!--            <package name="Bai9SetupTestNG"/>-->
+<!--            <package name="Bai8DropdownRadioCheckbox"/>-->
+<!--        </packages>-->
+<!--    </test>-->
+</suite>
