@@ -1,15 +1,13 @@
 package Bai12ActionRobotClass;
 
-import common.BaseTest;
+import common.BaseTestold;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-import java.security.Key;
-
-public class LearnActionClass extends BaseTest {
+public class LearnActionClass extends BaseTestold {
     @Test(priority = 0)
     public void TestSendKey1() throws InterruptedException {
         driver.get("http://172.18.0.246:9292/#/login");

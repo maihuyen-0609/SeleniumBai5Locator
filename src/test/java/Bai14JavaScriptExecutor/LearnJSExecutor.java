@@ -1,12 +1,12 @@
 package Bai14JavaScriptExecutor;
 
-import common.BaseTest;
+import common.BaseTestold;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class LearnJSExecutor extends BaseTest {
+public class LearnJSExecutor extends BaseTestold {
     JavascriptExecutor js; //khai báo
     @Test
     public void jsExecutorDemo01() throws InterruptedException {

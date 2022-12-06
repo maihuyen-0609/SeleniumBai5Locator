@@ -1,11 +1,11 @@
 package Bai11Assert;
 
-import common.BaseTest;
+import common.BaseTestold;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LearnHardAssert extends BaseTest {
+public class LearnHardAssert extends BaseTestold {
     @Test(priority = 0)
     public void CheckTitle(){
         driver.get("https://anhtester.com/");

@@ -3,11 +3,11 @@ package Bai19Navigation.TestcaseNavigation;
 import Bai19Navigation.PageNavigation.PageDashboard;
 import Bai19Navigation.PageNavigation.PageLogin;
 import Bai19Navigation.PageNavigation.PermissionPage;
-import common.BaseTest;
+import common.BaseTestold;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TestcasePermission extends BaseTest {
+public class TestcasePermission extends BaseTestold {
     private PageLogin pageLogin;
     private PageDashboard pageDashboard;
     private PermissionPage permissionPage;
@@ -20,7 +20,7 @@ public class TestcasePermission extends BaseTest {
     }
 
     @Test
-    public void testAddDeletePermission() {
+    public void testAddPermission() {
         pageDashboard = pageLogin.LoginSalary("admin", "123456");
         permissionPage = pageDashboard.openPermissionpage();
         permissionPage.AddPermission("Mina1", "Mina1", "Mina", "Mina1");

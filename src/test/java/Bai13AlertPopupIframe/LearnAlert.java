@@ -1,12 +1,12 @@
 package Bai13AlertPopupIframe;
 
-import common.BaseTest;
+import common.BaseTestold;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LearnAlert extends BaseTest {
+public class LearnAlert extends BaseTestold {
     @Test
     public void TestAlert1() throws InterruptedException {
         driver.get("https://demo.seleniumeasy.com/javascript-alert-box-demo.html");

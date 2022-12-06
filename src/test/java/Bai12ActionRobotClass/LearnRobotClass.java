@@ -1,6 +1,6 @@
 package Bai12ActionRobotClass;
 
-import common.BaseTest;
+import common.BaseTestold;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -9,7 +9,7 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.Set;
 
-public class LearnRobotClass extends BaseTest {
+public class LearnRobotClass extends BaseTestold {
     @Test
     public void inputText() throws InterruptedException, AWTException {
 

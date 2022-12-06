@@ -1,6 +1,6 @@
 package Bai13AlertPopupIframe;
 
-import common.BaseTest;
+import common.BaseTestold;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -10,7 +10,7 @@ import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.Set;
 
-public class LearnWindowPopup extends BaseTest {
+public class LearnWindowPopup extends BaseTestold {
     @Test
     public void inputText() throws InterruptedException, AWTException {
 

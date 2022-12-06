@@ -3,13 +3,21 @@ package Bai19Navigation.PageNavigation;
 import anhtester.com.utils.WebUI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
+import java.time.Duration;
 
 public class PageLogin {
     private WebDriver driver;
+    private WebDriverWait wait;
+    private PageDashboard pageDashboard;
     public PageLogin(WebDriver driver) {
         this.driver=driver;
         new WebUI(driver);
+        wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+        pageDashboard=new PageDashboard(driver);
     }
     private By inputAccount = By.xpath("//input[@placeholder='Account']");
     private By inputPassword=By.xpath("//input[@placeholder='Password']");
@@ -25,11 +33,18 @@ public class PageLogin {
 
     public PageDashboard LoginSalary (String account, String password) {
         WebUI.openURL("http://172.18.0.246:9292/#/login");
+        boolean checkLoginPage=WebUI.checkElementExist(textPage);
         WebUI.getElementText(textPage);
-        Assert.assertEquals(WebUI.getElementText(textPage).trim(),"Salary system", "Text sai");
+        Assert.assertTrue(checkLoginPage,"Không tìm thấy Login page");
         WebUI.setText(inputAccount,account);
         WebUI.setText(inputPassword,password);
         WebUI.clickElement(buttonLogin);
+        WebUI.waitForElementVisible(pageDashboard.menuPermission);
+        //đợi trang load
+        //check sự tồn tại của element
+        boolean checkMenu=WebUI.checkElementExist(pageDashboard.menuPermission);
+        Assert.assertTrue(checkMenu,"Không tìm thấy menu");
+
         return new PageDashboard(driver);
     }
     public void LoginOA(String accountOA, String passwordOA) {

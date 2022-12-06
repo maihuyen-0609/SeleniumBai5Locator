@@ -1,12 +1,11 @@
 package Bai11Assert;
 
-import common.BaseTest;
+import common.BaseTestold;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class PermissionAssert  extends BaseTest {
+public class PermissionAssert  extends BaseTestold {
     @Test
     public void Loginsalary() throws InterruptedException {
         SoftAssert softAssert=new SoftAssert();

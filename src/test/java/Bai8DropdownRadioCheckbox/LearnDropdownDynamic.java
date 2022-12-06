@@ -1,12 +1,12 @@
 package Bai8DropdownRadioCheckbox;
 
-import common.BaseTest;
+import common.BaseTestold;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class LearnDropdownDynamic extends BaseTest {
+public class LearnDropdownDynamic extends BaseTestold {
     @Test
     public  void learndropdown() throws InterruptedException {
         createDriver();

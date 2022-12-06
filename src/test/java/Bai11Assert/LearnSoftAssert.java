@@ -1,11 +1,11 @@
 package Bai11Assert;
 
-import common.BaseTest;
+import common.BaseTestold;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class LearnSoftAssert extends BaseTest {
+public class LearnSoftAssert extends BaseTestold {
     @Test(priority = 0)
     public void Permission(){
         driver.get("https://anhtester.com/");

@@ -1,15 +1,13 @@
 package Bai8DropdownRadioCheckbox;
 
-import common.BaseTest;
-import dev.failsafe.internal.util.Assert;
+import common.BaseTestold;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import java.util.List;
 
-public  class LearnCheckbox extends BaseTest {
+public  class LearnCheckbox extends BaseTestold {
     @Test
     public void learncheckbox() throws InterruptedException {
         //đoạn setup browser >> class riêng

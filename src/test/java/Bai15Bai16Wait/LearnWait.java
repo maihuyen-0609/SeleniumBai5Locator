@@ -1,22 +1,17 @@
 package Bai15Bai16Wait;
 
 import anhtester.com.utils.WebUI;
-import common.BaseTest;
+import common.BaseTestold;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
-
-public class LearnWait extends BaseTest {
+public class LearnWait extends BaseTestold {
     @Test
     public void createProject() {
         driver.get("https://app.hrsale.com");
         WebUI.clickElement(By.xpath("//button[normalize-space()='Super Admin']"));
-        WebUI.clickElement(By.xpath("//button[@type='submit']"), 2);
+        WebUI.clickElement(By.xpath("//button[@type='submit']"));
         WebUI.clickElement( By.xpath("//a[@href='https://app.hrsale.com/erp/projects-grid']"));
        // driver.findElement(By.xpath("//button[normalize-space()='Super Admin']")).click();
 

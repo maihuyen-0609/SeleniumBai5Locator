@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="SeleniumMaven(failed)">
     <classes>
-      <class name="Bai9SetupTestNG.RunTest">
+      <class name="Bai9SetupTestNG.RunTestold">
         <methods>
           <include name="createPermission"/>
         </methods>
-      </class> <!-- Bai9SetupTestNG.RunTest -->
+      </class> <!-- Bai9SetupTestNG.RunTestold -->
     </classes>
   </test> <!-- SeleniumMaven(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

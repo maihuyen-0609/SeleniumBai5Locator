@@ -1,6 +1,6 @@
 package Bai12ActionRobotClass;
 
-import common.BaseTest;
+import common.BaseTestold;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
@@ -11,7 +11,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 
-public class UploadFilebyRobotClass extends BaseTest {
+public class UploadFilebyRobotClass extends BaseTestold {
     @Test
     public void uploadsalary() throws InterruptedException, AWTException {
         driver.get("http://172.18.0.246:9292/#/login");

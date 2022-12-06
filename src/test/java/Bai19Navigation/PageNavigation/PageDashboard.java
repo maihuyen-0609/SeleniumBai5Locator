@@ -12,10 +12,9 @@ public class PageDashboard {
         new WebUI(driver);
     }
 
-    private By menuPermission = By.xpath("//a[@aria-label='menu.adminTool.permission']");
+    public By menuPermission = By.xpath("//a[@aria-label='menu.adminTool.permission']");
     private By menuRole=By.xpath("//a[@aria-label='menu.adminTool.role']");
     private By menuRoute=By.xpath("//a[@aria-label='menu.adminTool.route']");
-
 
     public PermissionPage openPermissionpage() {
         WebUI.clickElement(menuPermission);

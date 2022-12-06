@@ -1,10 +1,10 @@
 package Bai13AlertPopupIframe;
 
-import common.BaseTest;
+import common.BaseTestold;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class LearnIframe extends BaseTest {
+public class LearnIframe extends BaseTestold {
     @Test
     public void iframe1() throws InterruptedException {
         driver.get("https://anhtester.com/contact");

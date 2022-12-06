@@ -6,44 +6,44 @@
     <groups>
     </groups>
     <test started-at="2022-11-29T09:55:57 CST" name="SeleniumMaven" finished-at="2022-11-29T09:57:17 CST" duration-ms="80197">
-      <class name="Bai9SetupTestNG.RunTest">
-        <test-method is-config="true" signature="createDriver()[pri:0, instance:Bai9SetupTestNG.RunTest@6b19b79]" started-at="2022-11-29T09:55:57 CST" name="createDriver" finished-at="2022-11-29T09:56:00 CST" duration-ms="3251" status="PASS">
+      <class name="Bai9SetupTestNG.RunTestold">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:Bai9SetupTestNG.RunTestold@6b19b79]" started-at="2022-11-29T09:55:57 CST" name="createDriver" finished-at="2022-11-29T09:56:00 CST" duration-ms="3251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method signature="createPermission()[pri:0, instance:Bai9SetupTestNG.RunTest@6b19b79]" started-at="2022-11-29T09:56:00 CST" name="createPermission" finished-at="2022-11-29T09:56:29 CST" duration-ms="28950" status="PASS">
+        <test-method signature="createPermission()[pri:0, instance:Bai9SetupTestNG.RunTestold@6b19b79]" started-at="2022-11-29T09:56:00 CST" name="createPermission" finished-at="2022-11-29T09:56:29 CST" duration-ms="28950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPermission -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Bai9SetupTestNG.RunTest@6b19b79]" started-at="2022-11-29T09:56:29 CST" name="closeDriver" finished-at="2022-11-29T09:56:31 CST" duration-ms="2198" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Bai9SetupTestNG.RunTestold@6b19b79]" started-at="2022-11-29T09:56:29 CST" name="closeDriver" finished-at="2022-11-29T09:56:31 CST" duration-ms="2198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="createDriver()[pri:0, instance:Bai9SetupTestNG.RunTest@6b19b79]" started-at="2022-11-29T09:56:31 CST" name="createDriver" finished-at="2022-11-29T09:56:32 CST" duration-ms="784" status="PASS">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:Bai9SetupTestNG.RunTestold@6b19b79]" started-at="2022-11-29T09:56:31 CST" name="createDriver" finished-at="2022-11-29T09:56:32 CST" duration-ms="784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method signature="deletePermission()[pri:0, instance:Bai9SetupTestNG.RunTest@6b19b79]" started-at="2022-11-29T09:56:32 CST" name="deletePermission" finished-at="2022-11-29T09:56:56 CST" duration-ms="23435" status="PASS">
+        <test-method signature="deletePermission()[pri:0, instance:Bai9SetupTestNG.RunTestold@6b19b79]" started-at="2022-11-29T09:56:32 CST" name="deletePermission" finished-at="2022-11-29T09:56:56 CST" duration-ms="23435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePermission -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Bai9SetupTestNG.RunTest@6b19b79]" started-at="2022-11-29T09:56:56 CST" name="closeDriver" finished-at="2022-11-29T09:56:58 CST" duration-ms="2186" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Bai9SetupTestNG.RunTestold@6b19b79]" started-at="2022-11-29T09:56:56 CST" name="closeDriver" finished-at="2022-11-29T09:56:58 CST" duration-ms="2186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="createDriver()[pri:0, instance:Bai9SetupTestNG.RunTest@6b19b79]" started-at="2022-11-29T09:56:58 CST" name="createDriver" finished-at="2022-11-29T09:56:59 CST" duration-ms="771" status="PASS">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:Bai9SetupTestNG.RunTestold@6b19b79]" started-at="2022-11-29T09:56:58 CST" name="createDriver" finished-at="2022-11-29T09:56:59 CST" duration-ms="771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method signature="loginSalary()[pri:0, instance:Bai9SetupTestNG.RunTest@6b19b79]" started-at="2022-11-29T09:56:59 CST" name="loginSalary" finished-at="2022-11-29T09:57:15 CST" duration-ms="16576" status="PASS">
+        <test-method signature="loginSalary()[pri:0, instance:Bai9SetupTestNG.RunTestold@6b19b79]" started-at="2022-11-29T09:56:59 CST" name="loginSalary" finished-at="2022-11-29T09:57:15 CST" duration-ms="16576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSalary -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Bai9SetupTestNG.RunTest@6b19b79]" started-at="2022-11-29T09:57:15 CST" name="closeDriver" finished-at="2022-11-29T09:57:17 CST" duration-ms="2012" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Bai9SetupTestNG.RunTestold@6b19b79]" started-at="2022-11-29T09:57:15 CST" name="closeDriver" finished-at="2022-11-29T09:57:17 CST" duration-ms="2012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- Bai9SetupTestNG.RunTest -->
+      </class> <!-- Bai9SetupTestNG.RunTestold -->
     </test> <!-- SeleniumMaven -->
   </suite> <!-- Default Suite -->
 </testng-results>
