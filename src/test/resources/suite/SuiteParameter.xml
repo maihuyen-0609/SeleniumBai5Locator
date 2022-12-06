@@ -1,0 +1,82 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Parameter Suite" verbose="1">
+    <parameter name="number2" value="18"></parameter>
+    <test name="Parameter">
+       <parameter name="number2" value="2"></parameter>
+        <parameter name="Message" value="Tổng 2 số là"></parameter>
+        <classes>
+            <class name="Bai24ParameterMultiBrowser.LearnParameter" />
+        </classes>
+    </test>
+    <test name="Parameter1">
+        <parameter name="Message" value="Tổng 2 số là"></parameter>
+        <classes>
+            <class name="Bai24ParameterMultiBrowser.LearnParameter" />
+        </classes>
+    </test>
+<!--    <test name="Parameter3">-->
+<!--        <parameter name="username" value="admin"></parameter>-->
+<!--        <parameter name="password" value="123456"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="Bai24ParameterMultiBrowser.LoginTestoldParameterter" >-->
+<!--                <methods>-->
+<!--                    <include name="LoginSuccess"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Bai20_21_ThuchanhPOM.Testcase.TestcasePermission" >-->
+<!--                <methods>-->
+<!--                    <include name="testAddPermission"/>-->
+<!--                    <include name="testDeletePermission"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Parameter4">-->
+<!--        <parameter name="username" value="admin1"></parameter>-->
+<!--        <parameter name="password" value="123456"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="Bai24ParameterMultiBrowser.LoginTestoldParameterter" >-->
+<!--                <methods>-->
+<!--                    <include name="LoginFailed1"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="Parameter5Multibrowser">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="username" value="admin"></parameter>
+        <parameter name="password" value="123456"></parameter>
+        <classes>
+            <class name="Bai24ParameterMultiBrowser.LoginTestoldParameter" >
+            <methods>
+                                <include name="LoginSuccess"/>
+                            </methods>
+                        </class>
+                        <class name="Bai20_21_ThuchanhPOM.Testcase.TestcasePermission" >
+                            <methods>
+                                <include name="testAddPermission"/>
+                                <include name="testDeletePermission"/>
+                            </methods>
+                        </class>
+        </classes>
+    </test>
+    <test name="Parameter6Multibrowser">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="username" value="admin"></parameter>
+        <parameter name="password" value="123456"></parameter>
+        <classes>
+            <class name="Bai24ParameterMultiBrowser.LoginTestoldParameter" >
+                <methods>
+                    <include name="LoginSuccess"/>
+                </methods>
+            </class>
+            <class name="Bai20_21_ThuchanhPOM.Testcase.TestcasePermission" >
+                <methods>
+                    <include name="testAddPermission"/>
+                    <include name="testDeletePermission"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
